@@ -12,7 +12,7 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
 
 ## Proceso paso a paso
 1. Escaneo de puertos con Nmap
-   ![image](<img width="924" height="314" alt="image" src="https://github.com/user-attachments/assets/6513f5ba-9146-4e48-a05b-fb1f1cb6112b" />
-)
+   ![nmap1](img/nmap1.png)
+
 
 2. 
