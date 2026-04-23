@@ -32,4 +32,9 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
    ![EB-1](img/EB-1.png)
 
 6. Definición de Parámetros y Variables del Exploit
+   ```bash
+   show options
+   ```
+   ![EB-2](img/EB-2.png)
+   
    
