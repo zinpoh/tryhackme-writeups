@@ -16,4 +16,12 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
 2. Identificacion del puerto 445 abierto, confirmo alguna vulnerabilidad
    ![nmap2](img/nmap2.png)
 3. Verificación de la versión del sistema operativo (Windows 7/2008), que asegura la compatibilidad
-   ![nmap3](img/nmap3.png) 
+   ![nmap3](img/nmap3.png)
+4. Inicio de msfconsole, y busqueda del exploit ms17-010
+   ![msfconsole1](img/msfconsole1.png)
+   donde:
+      * 🔴 Búsqueda del módulo: Se utilizó el comando search ms17-010 filtrando por tipo exploit para localizar el vector de ataque específico.
+      * 🟡 Selección del Target: Como se observa en la captura (recuadro amarillo), el módulo elegido es exploit/windows/smb/ms17_010_eternalblue
+      * 🟢 Sistemas Compatibles: El recuadro verde muestra que este exploit es versátil, cubriendo desde Windows 7 y Server 2008 hasta Windows 10 y Server 2012. Esto valida nuestra fase de reconocimiento previa.
+      * 🔵 Verificación (Check): Es importante notar que el módulo tiene la opción Check: Yes, lo que nos permite verificar si el objetivo es vulnerable antes de lanzar el payload definitivo, reduciendo el riesgo de crashear el sistema.
+   
