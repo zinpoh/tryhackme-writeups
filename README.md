@@ -14,5 +14,6 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
 1. Escaneo de puertos con Nmap
    ![nmap1](img/nmap1.png)
 2. Identificacion del puerto 445 abierto, confirmo alguna vulnerabilidad
-   
-2.  
+   ![nmap2](img/nmap2.png)
+3. Verificación de la versión del sistema operativo (Windows 7/2008), que asegura la compatibilidad
+   ![nmap3](img/nmap3.png) 
