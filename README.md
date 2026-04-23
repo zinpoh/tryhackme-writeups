@@ -53,5 +53,10 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
      ```
    ![EB-3](img/EB-3.png)
 
-   
+## Perspectiva defensiva
+* Detección: Monitoreo de tráfico SMB inusual y uso de firmas de IDS/IPS (como Snort o Suricata) que identifiquen          intentos de conexión MS17-010.
+* Mitigación: La medida principal es deshabilitar SMBv1 en todas las máquinas y aplicar el parche de seguridad oficial     de Microsoft. Además, segmentar la red para limitar el acceso al puerto 445 mediante firewalls.
+
+## Qué aprendi
+   Comprendí la importancia crítica de mantener los sistemas actualizados y el peligro que representan los protocolos       heredados (legacy). También practiqué la transición de un escaneo de vulnerabilidades a una explotación exitosa y el     manejo básico de sesiones en post-explotación.
    
