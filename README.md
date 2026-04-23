@@ -26,6 +26,4 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
       * 🔵 Verificación (Check): Es importante notar que el módulo tiene la opción Check: Yes, lo que nos permite verificar si el objetivo es vulnerable antes de lanzar el payload definitivo, reduciendo el riesgo de crashear el sistema.
 
 5. Selección y carga del modulo de explotacion
-   ```bash
-use exploit/windows/smb/ms17_010_eternalblue
-```
+   ```bash use exploit/windows/smb/ms17_010_eternalblue
