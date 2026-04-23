@@ -24,4 +24,7 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
       * 🟡 Selección del Target: Como se observa en la captura (recuadro amarillo), el módulo elegido es exploit/windows/smb/ms17_010_eternalblue
       * 🟢 Sistemas Compatibles: El recuadro verde muestra que este exploit es versátil, cubriendo desde Windows 7 y Server 2008 hasta Windows 10 y Server 2012. Esto valida nuestra fase de reconocimiento previa.
       * 🔵 Verificación (Check): Es importante notar que el módulo tiene la opción Check: Yes, lo que nos permite verificar si el objetivo es vulnerable antes de lanzar el payload definitivo, reduciendo el riesgo de crashear el sistema.
-   
+
+5. Selección y carga del modulo de explotacion
+   ```bash
+use exploit/windows/smb/ms17_010_eternalblue```
