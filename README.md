@@ -27,4 +27,5 @@ SMBv1 es un protocolo de red antiguo utilizado para compartir archivos y carpeta
 
 5. Selección y carga del modulo de explotacion
    ```bash
-use exploit/windows/smb/ms17_010_eternalblue```
+use exploit/windows/smb/ms17_010_eternalblue
+```
